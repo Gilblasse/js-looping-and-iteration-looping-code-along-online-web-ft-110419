@@ -16,4 +16,9 @@ function countDown(num) {
   }
 }
 
-countDown(4);
+function countDown(num) {
+  let countdown = num;
+  while (countdown < 0) {
+    console.log(countdown--);
+  }
+}
