@@ -11,14 +11,9 @@ function writeCards(names, event) {
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
 function countDown(num) {
-  for (let i = num; i <= 0; i--) {
-    console.log(i);
-  }
-}
-
-function countDown(num) {
   let countdown = num;
   while (countdown < 0) {
     console.log(countdown--);
   }
 }
+ countDown(num)
