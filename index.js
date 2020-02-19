@@ -12,8 +12,8 @@ writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
 function countDown(num) {
   for (let i = num; i <= 0; i--) {
-    console.log(i)
+    console.log(i);
   }
 }
 
-countDown(4)
+countDown(4);
