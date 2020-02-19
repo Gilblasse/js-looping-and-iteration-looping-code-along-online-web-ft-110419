@@ -16,4 +16,4 @@ function countDown(num) {
   }
 }
 
-countDown(10)
+countDown(4)
